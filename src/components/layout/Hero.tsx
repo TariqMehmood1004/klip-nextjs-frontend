@@ -30,7 +30,7 @@ const fadeUp = {
 const Hero = () => {
   return (
     <motion.div
-      className="relative h-[70vh] max-[767px]:h-full overflow-hidden w-full text-center flex flex-col items-center gap-[24px]"
+      className="relative  overflow-hidden w-full text-center flex flex-col items-center gap-[24px]"
       variants={containerVariants}
       initial="hidden"
       animate="show"

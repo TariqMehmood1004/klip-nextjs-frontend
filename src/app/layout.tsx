@@ -1,17 +1,7 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Sora } from "next/font/google";
+import { Sora } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/layout/Header";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 const sora = Sora({
   variable: "--font-sora",
@@ -32,7 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${sora.variable}`}>
-      <body className="font-sora w-full min-h-screen bg-[#FFFFFF] antialiased font-sora">
+      <body className="font-sora w-full overflow-x-hidden min-h-screen bg-[#FFFFFF] antialiased font-sora">
         <main className="w-full max-w-[1440px] mx-auto flex flex-col items-center">
           <section className="w-full px-[16px] flex flex-col items-center">
             <div className="w-full mb-10 md:mb-[120px] lg:mb-[120px]">

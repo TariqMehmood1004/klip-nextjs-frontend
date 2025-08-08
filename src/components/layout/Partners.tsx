@@ -1,9 +1,6 @@
 'use client';
 
 import React from 'react';
-import MyButton from '../ui/Button';
-import { ArrowRight } from 'lucide-react';
-import Image from 'next/image';
 import { motion } from 'framer-motion';
 import PartnersSlider from '../PartnerSlider';
 

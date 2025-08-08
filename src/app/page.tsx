@@ -1,6 +1,8 @@
 import Crypto from "@/components/layout/Crypto";
 import CTA from "@/components/layout/CTA";
+import KlipFooter from "@/components/layout/Footer";
 import Hero from "@/components/layout/Hero";
+import Innovators from "@/components/layout/Innovators";
 import Journey from "@/components/layout/Journey";
 import Partners from "@/components/layout/Partners";
 import Promotion from "@/components/layout/Promotion";
@@ -20,6 +22,8 @@ export default function Home() {
       <Tracking />
       <Journey />
       <Promotion />
+      <Innovators />
+      <KlipFooter />
     </div>
   );
 }
