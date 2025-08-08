@@ -36,7 +36,7 @@ const CTA = () => {
     >
 
       <motion.div variants={fadeUp} className="font-[400] mt-20 flex flex-col items-center justify-center gap-10 text-[16px] text-[#000000] leading-[26px] capitalize text-start">
-        <h1 className="w-[350px] max-[767px]:w-full font-[700] text-center max-[767px]:text-[38px] md:text-[48px] lg:text-[48px] text-[#ffffff] leading-[56px]">
+        <h1 className="w-[350px] max-[767px]:w-full max-[767px]:px-3 font-[700] text-center max-[767px]:text-[38px] md:text-[48px] lg:text-[48px] text-[#ffffff] leading-[56px]">
           Meet Your AI Agent
         </h1>
         <p className="w-[700px] max-[767px]:w-full font-[400] text-center max-[767px]:text-[17px] max-[767px]:px-5 md:text-[32px] lg:text-[32px] text-[#12ED39] leading-[120%]">
