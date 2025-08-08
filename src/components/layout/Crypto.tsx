@@ -27,7 +27,7 @@ const fadeUp = {
   },
 };
 
-const WalletBenefit = () => {
+const Crypto = () => {
   return (
     <motion.div
       className="font-sora relative overflow-hidden w-full flex flex-col gap-[24px]"
@@ -255,4 +255,4 @@ const WalletBenefit = () => {
   );
 };
 
-export default WalletBenefit;
+export default Crypto;

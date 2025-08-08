@@ -1,8 +1,8 @@
+import Crypto from "@/components/layout/Crypto";
 import Hero from "@/components/layout/Hero";
 import Partners from "@/components/layout/Partners";
 import Wallet from "@/components/layout/Wallet";
 import WalletBenefit from "@/components/layout/WalletBenefit";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -11,6 +11,7 @@ export default function Home() {
       <Wallet />
       <WalletBenefit />
       <Partners />
+      <Crypto />
     </div>
   );
 }
