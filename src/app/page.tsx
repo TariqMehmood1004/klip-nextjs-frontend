@@ -1,4 +1,5 @@
 import Crypto from "@/components/layout/Crypto";
+import CTA from "@/components/layout/CTA";
 import Hero from "@/components/layout/Hero";
 import Partners from "@/components/layout/Partners";
 import Wallet from "@/components/layout/Wallet";
@@ -12,6 +13,7 @@ export default function Home() {
       <WalletBenefit />
       <Partners />
       <Crypto />
+      <CTA />
     </div>
   );
 }

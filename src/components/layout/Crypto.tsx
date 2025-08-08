@@ -44,7 +44,7 @@ const Crypto = () => {
       <motion.div variants={fadeUp} className="w-full max-[767px]:mt-3 mt-[73px] flex max-[767px]:flex-col items-center justify-between gap-[24px]">
         <div className='w-full grid max-[767px]:grid-cols-1 grid-cols-2 gap-[24px]'>
           
-          <div className='flex flex-col p-[16px] items-center justify-center overflow-hidden max-[767px]:h-[367px] h-[621px] bg-[#151515] rounded-[20px]'>
+          <div className='flex flex-col p-[16px] items-center justify-center overflow-hidden max-[767px]:h-[367px] h-[621px] bg-[#151515] rounded-[8px]'>
             <div className="mt-5 relative max-[767px]:p-10 overflow-hidden">
               {/* Set a fixed height or make it responsive with aspect ratio */}
               <Image
@@ -57,7 +57,7 @@ const Crypto = () => {
             </div>
           </div>
 
-          <div className='flex flex-col p-[16px] items-center justify-center overflow-hidden max-[767px]:h-[367px] h-[621px] bg-[#151515] rounded-[20px]'>
+          <div className='flex flex-col p-[16px] items-center justify-center overflow-hidden max-[767px]:h-[367px] h-[621px] bg-[#151515] rounded-[8px]'>
             <div className="mt-5 relative max-[767px]:p-10 overflow-hidden">
               {/* Set a fixed height or make it responsive with aspect ratio */}
               <Image
@@ -70,7 +70,7 @@ const Crypto = () => {
             </div>
           </div>
           
-          <div className='flex flex-col p-[16px] items-center justify-center overflow-hidden max-[767px]:h-[367px] h-[621px] bg-[#151515] rounded-[20px]'>
+          <div className='flex flex-col p-[16px] items-center justify-center overflow-hidden max-[767px]:h-[367px] h-[621px] bg-[#151515] rounded-[8px]'>
             <div className="mt-5 relative max-[767px]:p-10 overflow-hidden">
               {/* Set a fixed height or make it responsive with aspect ratio */}
               <Image
@@ -83,7 +83,7 @@ const Crypto = () => {
             </div>
           </div>
 
-          <div className='flex flex-col p-[16px] items-center justify-center overflow-hidden max-[767px]:h-[367px] h-[621px] bg-[#151515] rounded-[20px]'>
+          <div className='flex flex-col p-[16px] items-center justify-center overflow-hidden max-[767px]:h-[367px] h-[621px] bg-[#151515] rounded-[8px]'>
             <div className="mt-5 relative max-[767px]:p-10 overflow-hidden">
               {/* Set a fixed height or make it responsive with aspect ratio */}
               <Image
