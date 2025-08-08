@@ -22,7 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${sora.variable}`}>
-      <body className="font-sora w-full overflow-x-hidden min-h-screen bg-[#FFFFFF] antialiased font-sora">
+      <body className="font-sora w-full overflow-x-hidden min-h-screen bg-[#FFFFFF] antialiased">
         <main className="w-full max-w-[1440px] mx-auto flex flex-col items-center">
           <section className="w-full px-[16px] flex flex-col items-center">
             <div className="w-full mb-10 md:mb-[120px] lg:mb-[120px]">
