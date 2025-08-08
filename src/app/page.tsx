@@ -6,7 +6,7 @@ import WalletBenefit from "@/components/layout/WalletBenefit";
 
 export default function Home() {
   return (
-    <div className="w-full p-0 text-center space-y-24">
+    <div className="w-full p-0 text-center space-y-[100px]">
       <Hero />
       <Wallet />
       <WalletBenefit />
